@@ -1,0 +1,140 @@
+body {
+    background-image: url("steel.jpg");
+}
+
+.bordered {
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.label {
+    width: 20%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.input {
+    width: 71%;
+    text-align: center;
+}
+
+.textarea {
+    width: 70%;
+    height: 130px;
+}
+
+.button {
+    margin: 5px;
+}
+
+#container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    width: 400px;
+    height: 400px;
+}
+
+#navigation {
+    display: none;
+}
+
+#notify{
+    position: relative;
+    top:10%;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#notify.error{
+    color: #f02708;
+}
+
+#login {
+    display: none;
+    width: 100%;
+    float: left;
+    text-align: center;
+    height: 400px;
+    background: url("door.jpg");
+    border: 1px solid #8c8c8c;
+    border-radius: 20px;
+}
+
+#login input {
+    margin-top: 190px;
+    width: 180px;
+    text-align: center;
+    font: large Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+#storage {
+    display: none;
+    position: relative;
+    width: 100%;
+    float: left;
+    top: 10%;
+}
+
+#settings {
+    display: none;
+    position: relative;
+    width: 100%;
+    float: left;
+    top: 10%;
+}
+
+.acResults {
+    padding: 0px;
+    border: 1px solid WindowFrame;
+    background-color: Window;
+    overflow: hidden;
+}
+
+.acResults ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-position: outside;
+    list-style: none;
+}
+
+.acResults ul li {
+    margin: 0px;
+    padding: 2px 5px;
+    cursor: pointer;
+    display: block;
+    font: menu;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.acSelect {
+    background-color: Highlight;
+    color: HighlightText;
+}
